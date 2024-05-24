@@ -1,3 +1,4 @@
+import 'package:exam_tasker/features/splash/splash.dart';
 import 'package:flutter/material.dart';
 
 class Tasker extends StatelessWidget {
@@ -5,6 +6,9 @@ class Tasker extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  Container();
+    return const MaterialApp(
+        debugShowCheckedModeBanner: false,
+        home:  Splash()
+    );
   }
 }
